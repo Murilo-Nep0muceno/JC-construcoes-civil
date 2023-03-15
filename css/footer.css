@@ -43,6 +43,16 @@
   background: rgba(0, 0, 0, 0.2);
 }
 
+.footer-contato img{
+  width: 40px;
+}
+
+.footer-redes{
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
 .footer-copy{
   margin-bottom: 10px;
   font-family: "Open Sans";
@@ -54,6 +64,13 @@
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.whatsap{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 70px;
 }
 
 @media(max-width:800px){

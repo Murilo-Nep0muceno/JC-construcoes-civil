@@ -1,11 +1,5 @@
-.projetos-bg{
-  background-color: #008037;
-  color: white;
-  margin-top: 80px;
-}
-
 .projetos{
-  padding: 40px 20px 20px 20px;
+  padding: 0px 20px 20px 20px;
 }
 
 .projetos h2{
@@ -65,9 +59,9 @@
 
 .projetos-cards-container{
   position: relative;
-  border: 1px solid rgb(255, 255, 255, 0.4);
   padding: 10px;
   border-radius: 10px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3);
 }
 
 @media(max-width:800px){
