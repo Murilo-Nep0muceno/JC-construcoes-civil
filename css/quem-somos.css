@@ -1,80 +1,60 @@
-.quem-somos-bg{
-  background-color: #008037;
-  color: white;
+.vantagens-bg{
+  background-color: #BDCCEB;
+  color: black;
 
 }
-.quem-somos{
-  padding: 80px 20px;
+.vantagens{
+  padding: 40px 20px;
 
 }
 
-.quem-somos h2{
+.vantagens h2{
   font-family: "Raleway";
   font-size: 3rem;
+  margin-bottom: 80px;
 }
 
-.quem-somos span{
-  color: #BEEE62;
-}
-
-.quem-somos-card {
+.vantagens-cards{
   display: flex;
-  justify-content: center;
-  padding-top: 40px;
-  gap: 0 40px;
-  flex-wrap: wrap;
+  gap: 40px;
 }
 
-.quem-somos-card div{
-  max-width: 350px;
-  height: 100%;
-  box-shadow: 0 0 1px 2px rgba(255, 255, 255, 0.2) ;
-  padding: 10px 20px;
+.vantagens-cards-contain{
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.4);
+  padding: 20px;
   border-radius: 4px;
-  margin-top: 40px;
-
+  width: 300px;
 }
 
-.quem-somos-card h3{
-  font-size: 1.8rem;
-  font-family: "Raleway";
-  margin-bottom: 20px; 
-  text-transform: uppercase;
-  
-}
-
-.quem-somos-card p {
-  font-family: "Open Sans";
+.vantagens-cards-contain p{
   font-size: 1rem;
-  word-wrap: break-word;
-  margin-top: 20px;
-
-}
-
-@media(max-width:1166px){
-  .quem-somos-card div{
-    max-width: 300px;
-  }
+  font-family: "Open Sans";
 }
 
 
-@media(max-width:800px){
-  .quem-somos{
-    padding: 40px;
+.vantagens-titulo{
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+
+}
+
+.vantagens-titulo img{
+  width: 30px;
+  margin-left: 10px;
+
+}
+
+.vantagens-titulo h3{
+  font-family: "Raleway";
+  font-size: 1.5rem;
+}
+
+@media(max-width:790px){
+  .vantagens-cards{
+    display: block; 
   }
-  .quem-somos h2{
-    font-size: 2rem;
-  }
-  .quem-somos-card{
-    padding-top: 40px;
-  }
-  .quem-somos-card div{
-    max-width: 400px;
-  }
-  .quem-somos-card p{
-    font-size: 1.125rem;
-  }
-  .quem-somos h2{
-    font-size: 2.4rem;
+  .vantagens-cards-contain{
+    margin-bottom: 20px;
   }
 }

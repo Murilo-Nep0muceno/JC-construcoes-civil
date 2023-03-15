@@ -1,5 +1,5 @@
 .header-bg{
-  background-color: #BEEE62;
+  background-color: #5B80CD;
 }
 
 .header{
@@ -10,6 +10,7 @@
   flex-wrap: wrap;
   gap: 20px;
   padding-bottom: 40px;
+
 }
 
 .header img{
@@ -29,6 +30,8 @@
   font-weight: 600;
   flex-wrap: wrap;
   position: relative;
+  color: white;
+
 }
 
 .header-menu a::after{
@@ -45,3 +48,4 @@
 .header-menu a:hover::after{
   width: 100%;
 }
+

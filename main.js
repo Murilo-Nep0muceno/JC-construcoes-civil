@@ -111,3 +111,7 @@ function prevSlider3() {
 
 btnNext3.addEventListener('click', nextSlider3)
 btnPrev3.addEventListener('click', prevSlider3)
+
+
+// mobile
+

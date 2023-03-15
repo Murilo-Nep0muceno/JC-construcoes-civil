@@ -10,12 +10,13 @@
 .projetos-slider{
   padding: 80px 0px 40px 0px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 0px 40px;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 20px;
 }
 
 .projetos-imagem{
-  width: 100%;
+  margin: 0 auto;
+
 }
 
 .projetos-cards{
@@ -23,16 +24,17 @@
   align-items: center;
 }
 
-.slider{
-  transition: opacity .2s;
-}
-
-.on{
+.slider, .slider2, .slider3{
   display: none;
 }
 
+.on{
+  width: 100%;
+  display: initial;
+}
+
 .projetos-cards-container button img{
-  width: 30px;
+  width: 20px;
 }
 
 .projetos-cards-container p, h1{
@@ -54,7 +56,7 @@
   height: 100%;
   border: none;
   cursor: pointer;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 5px 0px 5px;
 }
 
 .projetos-cards-container{
@@ -65,11 +67,14 @@
 }
 
 @media(max-width:800px){
+  .projetos{
+    padding-top: 20px;
+  }
   .projetos-slider{
     grid-template-columns: 1fr;
   }
   .projetos-cards-container{
-    padding-bottom: 40px;
     border: none;
+    margin-bottom: 20px;
   }
 }
