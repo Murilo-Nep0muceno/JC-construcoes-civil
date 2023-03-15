@@ -1,0 +1,47 @@
+.header-bg{
+  background-color: #BEEE62;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.header img{
+  width: 230px;
+}
+
+.header-menu{
+  display: flex;
+  gap: 20px;
+}
+
+.header-menu a{
+  padding: 16px 0;
+  font-family: "Open Sans";
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 600;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.header-menu a::after{
+  content: '';
+  display: block;
+  height: 2px;
+  width: 00%;
+  background: white;
+  margin-top: 3px;
+  transition: .2s;
+  position: absolute;
+}
+
+.header-menu a:hover::after{
+  width: 100%;
+}

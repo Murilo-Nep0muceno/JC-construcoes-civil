@@ -1,0 +1,81 @@
+.projetos-bg{
+  background-color: #008037;
+  color: white;
+  margin-top: 80px;
+}
+
+.projetos{
+  padding: 40px 20px 20px 20px;
+}
+
+.projetos h2{
+  font-family: "Raleway";
+  font-size: 3rem;
+}
+
+.projetos-slider{
+  padding: 80px 0px 40px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px 40px;
+}
+
+.projetos-imagem{
+  width: 100%;
+}
+
+.projetos-cards{
+  display: flex;
+  align-items: center;
+}
+
+.slider{
+  transition: opacity .2s;
+}
+
+.on{
+  display: none;
+}
+
+.projetos-cards-container button img{
+  width: 30px;
+}
+
+.projetos-cards-container p, h1{
+  padding-left: 40px ;
+}
+
+.projetos-cards-container h1{
+  font-family: "Raleway";
+  font-size: 2rem;
+  margin: 20px 0px 20px 0px;
+}
+
+.projetos-cards-container p{
+  font-family: "Open Sans";
+}
+
+.projetos-cards-container button{
+  background: none;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  padding: 0px 10px 0px 10px;
+}
+
+.projetos-cards-container{
+  position: relative;
+  border: 1px solid rgb(255, 255, 255, 0.4);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media(max-width:800px){
+  .projetos-slider{
+    grid-template-columns: 1fr;
+  }
+  .projetos-cards-container{
+    padding-bottom: 40px;
+    border: none;
+  }
+}

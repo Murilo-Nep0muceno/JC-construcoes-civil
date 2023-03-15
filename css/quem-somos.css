@@ -1,0 +1,76 @@
+.quem-somos{
+  padding: 0 20px;
+  
+
+}
+
+.quem-somos h2{
+  font-family: "Raleway";
+  font-size: 3rem;
+}
+
+.quem-somos span{
+  color: #008037;
+}
+
+.quem-somos-card {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  gap: 0 40px;
+  flex-wrap: wrap;
+}
+
+.quem-somos-card div{
+  max-width: 350px;
+  height: 100%;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1) ;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: 40px;
+
+}
+
+.quem-somos-card h3{
+  font-size: 1.8rem;
+  font-family: "Raleway";
+  margin-bottom: 20px; 
+  text-transform: uppercase;
+  
+}
+
+.quem-somos-card p {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  word-wrap: break-word;
+  margin-top: 20px;
+
+}
+
+@media(max-width:1166px){
+  .quem-somos-card div{
+    max-width: 300px;
+  }
+}
+
+
+@media(max-width:800px){
+  .quem-somos{
+    padding: 40px;
+  }
+  .quem-somos h2{
+    font-size: 2rem;
+  }
+  .quem-somos-card{
+    padding-top: 40px;
+  }
+  .quem-somos-card div{
+    max-width: 400px;
+  }
+  .quem-somos-card p{
+    font-size: 1.125rem;
+  }
+  .quem-somos h2{
+    font-size: 2.4rem;
+  }
+}
