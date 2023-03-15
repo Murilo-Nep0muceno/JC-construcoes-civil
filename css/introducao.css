@@ -68,6 +68,13 @@
   }
 }
 
+@media(max-width:800px){
+  .introducao-bg{
+    box-shadow: none;
+    padding: 40px;
+  }
+}
+
 @media(max-width:600px){
   .introducao-bg{
     box-shadow: none;

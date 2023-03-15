@@ -70,6 +70,9 @@
   .projetos{
     padding-top: 20px;
   }
+  .projetos h2{
+    text-align: center;
+  }
   .projetos-slider{
     grid-template-columns: 1fr;
   }
