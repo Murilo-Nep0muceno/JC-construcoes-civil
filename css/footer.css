@@ -70,10 +70,9 @@
   position: fixed;
   bottom: 30px;
   right: 30px;
-  width: 70px;
 }
 
-@media(max-width:800px){
+@media(max-width:910px){
   .footer{
     display: block;
     padding-left: 20px;
@@ -81,5 +80,5 @@
   .footer-copy{
     padding-left: 20px;
   }
-  
+ 
 }
